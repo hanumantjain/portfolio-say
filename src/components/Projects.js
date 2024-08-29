@@ -22,7 +22,7 @@ const Projects = () => {
       {projectData.map((projectData) => (
         <div key={projectData.id}>
           <div className="max-w-sm rounded overflow-hidden shadow-lg mb-10">
-                <img className="w-full" src='#' alt="The Funder's Hub"/>
+                <img className="w-full" src={projectData.image} alt="The Funder's Hub"/>
                 <div className="px-6 py-4">
                   <div className="text-2xl mb-2 head ">{projectData.name}</div>
                   <p className="">
